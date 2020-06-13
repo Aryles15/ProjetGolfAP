@@ -1,0 +1,137 @@
+/*
+STYLE CSS
+
+*/
+
+body {
+    margin-bottom: 10%;
+}
+
+.navbar-brand{
+    margin-left: 7%;
+}
+
+#navbarNav{
+    color: black;
+    margin-left: 50%;
+}
+/*.allbody-exeptedNavBar {
+    margin-left: 10%;
+    margin-right: 10%;
+}*/
+
+.TouteLesListe{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.divBienvenue {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.DivTitreTopPage{
+    animation-duration: 0.5s;
+    animation-name: slidebas;
+    text-align: center;
+}
+
+.TitreTopPage{
+    color: black;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.SousTitreTopPage{
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.ajoutcateg {
+    text-align: center;
+}
+
+.categorieAll {
+    margin-top: 2%;
+}
+
+.divCateg {
+    animation-duration: 1s;
+    animation-name: slideleft;
+
+}
+
+.divSousCateg {
+    animation-duration: 1s;
+    animation-name: slidebas;
+    margin-left: 5%;
+}
+
+.titresouscateg {
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.listeregles {
+    margin-top: 2%;
+}
+
+.lienHref{
+    color: darkslategray;
+    margin-left: 2%;
+}
+
+.fixedbutton{
+    position: fixed;
+    top: 40%;
+    width: auto;
+    height: auto;/*height: auto;*/
+    margin-left: 1% ;
+    z-index: 99;
+    padding: 0;
+}
+
+.btn-copy{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*KeyFrames Animation*/
+@keyframes slideleft {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+
+@keyframes slidebas {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+/*
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}*/
