@@ -27,7 +27,7 @@ body {
 
 .divBienvenue {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .DivTitreTopPage{
@@ -97,6 +97,13 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.formCo{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
 
 /*KeyFrames Animation*/
 @keyframes slideleft {

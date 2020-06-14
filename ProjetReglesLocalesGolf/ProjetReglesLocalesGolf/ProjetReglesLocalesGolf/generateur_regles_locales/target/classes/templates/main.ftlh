@@ -25,6 +25,34 @@
 
     </head>
     <body>
+    <!--
+        <nav class="navbar navbar-toggleable-sm navbar-trans navbar-inverse text-dark">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler-1" aria-controls="navbarToggler-1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">R & A</a>
+                    <div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarToggler-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/categories">Règles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Règles Locales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Connexion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+         -->
+
+
     <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-light">
         <a class="navbar-brand " href="https://www.randa.org/en/rog/2019/pages/local-rules-creator" target="_blank">R&A</a>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -34,16 +62,16 @@
         <div class="collapse navbar-collapse text-white" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/categories">Règles</a>
+                    <a class="nav-link" href="/categories">Règles Locales</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Règles Locales</a>
+                    <a class="nav-link" href="#">Generator</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Connexion</a>
+                    <a class="nav-link " href="/connexion">Connexion</a>
                 </li>
             </ul>
         </div>

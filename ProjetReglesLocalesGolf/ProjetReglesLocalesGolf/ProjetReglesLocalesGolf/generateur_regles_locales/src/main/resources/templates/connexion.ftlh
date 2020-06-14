@@ -3,7 +3,9 @@
 
 <@m.page title="">
 
+
    <!--FORMULAIRE DE CONNEXION USER-->
+    <div class="formCo col-md-6">
     <form action="/login" method="post">
         <h3>Connexion</h3>
         <div class="form-group">
@@ -18,5 +20,5 @@
         </div>
         <button type="submit" class="btn btn-warning">Connexion</button>
     </form>
-
+    </div>
 </@m.page>

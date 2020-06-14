@@ -18,8 +18,8 @@ public class JpaUserService {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    public void setUserDao(HabilitationRepository habilitationRepository){
-        this.habilitationRepository = habilitationRepository;
+    public void setUserDao(UserRepository userRepository){
+        this.userRepository = userRepository;
     }
 
     @Autowired

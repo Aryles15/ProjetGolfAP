@@ -1,11 +1,31 @@
 <#import "main.ftlh" as m>
 
 <@m.page title="">
+    <!---->
+    <#assign
+    known=Session.SPRING_SECURITY_CONTEXT??>
+    <#if known>
+        <#assign
+        user = Session.SPRING_SECURITY_CONTEXT.authentication.principal
+        name = user.getUsername()
+        habilitations= user.authorities>
+    <#else>
+        <#assign
+        name="unknown"
+        >
+    </#if>
+    <h1>${name}</h1>
+    <#if habilitations??>
+        <#list habilitations as habilitation>
+            ${habilitation}<#assign habilitation="${habilitation}">
+        </#list>
+    </#if>
+    <!---->
 
     <div class="DivTitreTopPage">
         <h1 class="TitreTopPage">R & A</h1>
         <h3 class="SousTitreTopPage">Liste des rubriques</h3>
-        <span><a href="/connexion">Se connecter</a></span>
+        <a href="/deconnexion">Deconnexion</a>
     </div>
 
     <form action="/regleselect" method="post">
@@ -24,10 +44,19 @@
 
 
                     <div id="${categorie.id}" class="divCateg" style="display:none;">
-                        <a href="/changecateg/${categorie.id}" role="button" class="btn btn-sm btn-outline-light lienHref">Changer titre rubriques</a>
-                        <a href="/newcateg/${categorie.id}" class="btn btn-sm btn-outline-light lienHref">Nouvelle Rubriques</a>
-                        <a href="/newsouscateg/${categorie.id}" class="btn btn-sm btn-outline-light lienHref">Nouvelle Sous Rubrique</a>
-                        <a href="/categoriedelete/${categorie.id}" class="btn btn-sm btn-outline-light lienHref">Suprimer la Rubrique </a>
+                        <#if habilitation??>  <#if habilitation=="EDITEUR" ||habilitation=="GESTIONNAIRE"||habilitation=="ADMIN">
+                        <a href="/Editeur/changecateg/${categorie.id}" role="button" class="btn btn-sm btn-outline-light lienHref">Changer titre rubriques</a>
+                        </#if></#if>
+                         <#if habilitation??>  <#if habilitation=="GESTIONNAIRE"||habilitation=="ADMIN">
+                        <a href="/Gestionnaire/newcateg/${categorie.id}" class="btn btn-sm btn-outline-light lienHref">Nouvelle
+                            Rubriques</a>
+                        <a href="/Gestionnaire/newsouscateg/${categorie.id}"
+                           class="btn btn-sm btn-outline-light lienHref">Nouvelle Sous Rubrique</a>
+                        </#if></#if>
+                        <#if habilitation??>  <#if habilitation=="ADMIN">
+                            <a href="/Admin/categoriedelete/${categorie.id}"
+                               class="btn btn-sm btn-outline-light lienHref">Suprimer la Rubrique </a>
+                        </#if></#if>
 
 
                         <#list categorie.getSousCategories() as souscat>
@@ -40,13 +69,17 @@
                             </div>
 
                             <div id="1${souscat.id}" class="divSousCateg " style="display:none;">
+                                  <#if habilitation??>  <#if habilitation=="EDITEUR"|| habilitation=="GESTIONNAIRE"|| habilitation=="ADMIN">
+                                      <a href="/Editeur/changesouscateg/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Changer titre Sous-Rubriques</a>
+                                      <a href="Editeur/changesouscategobjet/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Changer l'objet</a>
+                                  </#if></#if>
+                                <#if habilitation??>  <#if habilitation=="GESTIONNAIRE" || habilitation=="ADMIN">
+                                    <a href="/Gestionnaire/newnextregle/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Nouvelle Regle</a>
+                                </#if></#if>
+                                <#if habilitation??>  <#if habilitation=="ADMIN">
+                                        <a href="/Admin/souscategoriedelete/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Suprimer la Sous-Rubrique </a>
+                                </#if></#if>
 
-                                <a href="/changesouscateg/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Changer titre
-                                    Sous-Rubriques</a>
-                                <a href="/souscategoriedelete/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Suprimer la
-                                    Sous-Rubrique </a>
-                                <a href="/newnextregle/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Nouvelle Regle</a>
-                                <a href="/changesouscategobjet/${souscat.id}" class="btn btn-sm btn-outline-light lienHref">Changer l'objet</a>
 
                                 <!--<p>Objet: </br>${souscat.objet}</p>-->
 
@@ -54,7 +87,6 @@
                                 <#list souscat.getRegles() as regles >
                                     <div class="card shadow p-3 mb-5 bg-white rounded">
                                         <div class="card-body">
-
                                             <h9>${categorie.code}.${souscat.numordre}-${regles.numordre}
                                                 .${regles.corpus}</h9>
 
@@ -65,10 +97,12 @@
                                                 <label class="custom-control-label"
                                                        for="defaultUnchecked${regles.id}"></label>
                                             </div>
-
-                                            <a href="/changeregle/${regles.id}" class="btn btn-sm btn-outline-muted lienHref">Editer la Regle</a>
-                                            <a href="/regledelete/${regles.id}" class="btn btn-sm btn-outline-muted lienHref">Suprimer la Regle </a>
-
+                                    <#if habilitation??>  <#if habilitation=="EDITEUR" || habilitation=="GESTIONNAIRE" || habilitation=="ADMIN">
+                                            <a href="Editeur/changeregle/${regles.id}" class="btn btn-sm btn-outline-muted lienHref">Editer la Regle</a>
+                                    </#if></#if>
+                                             <#if habilitation??>  <#if habilitation=="ADMIN">
+                                                <a href="Admin/regledelete/${regles.id}" class="btn btn-sm btn-outline-muted lienHref">Suprimer la Regle </a>
+                                             </#if></#if>
                                         </div>
 
                                     </div>

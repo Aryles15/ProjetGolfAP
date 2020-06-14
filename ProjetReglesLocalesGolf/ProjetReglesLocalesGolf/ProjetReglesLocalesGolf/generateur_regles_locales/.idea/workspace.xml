@@ -1,29 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a60cf6-50a5-46aa-a7a5-bfa7c1a81e9f" name="Default Changelist" comment="" />
+    <list default="true" id="90a60cf6-50a5-46aa-a7a5-bfa7c1a81e9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-db.h2.lock.db" beforeDir="false" afterPath="$PROJECT_DIR$/local-db.h2.lock.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-db.h2.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/local-db.h2.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-db.h2.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/local-db.h2.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/configuration/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/controllers/CategorieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/controllers/CategorieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/controllers/RegleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/controllers/RegleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/controllers/SousCategorieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/controllers/SousCategorieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/service/JpaUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generateur_regles_locales/service/JpaUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/changecategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/changecategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/changeregle.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/changeregle.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/changesouscategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/changesouscategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/changesouscategorieobjet.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/changesouscategorieobjet.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/connexion.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/connexion.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newcategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newcategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newregle.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newregle.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newsouscategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newsouscategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/generateur_regles_locales/GenerateurReglesLocalesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/generateur_regles_locales/GenerateurReglesLocalesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/generateur_regles_locales/configuration/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generateur_regles_locales/configuration/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/generateur_regles_locales/controllers/CategorieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generateur_regles_locales/controllers/CategorieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/generateur_regles_locales/service/JpaUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generateur_regles_locales/service/JpaUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/categorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/categorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/changecategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/changecategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/changeregle.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/changeregle.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/changesouscategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/changesouscategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/changesouscategorieobjet.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/changesouscategorieobjet.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/connexion.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/connexion.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newcategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/newcategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newregle.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/newregle.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newsouscategorie.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/newsouscategorie.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/generateur_regles_locales/GenerateurReglesLocalesApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/generateur_regles_locales/GenerateurReglesLocalesApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="HABILITATION: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="REGLE: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SOUS_CATEGORIE: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USER: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local-db.h2" type="feb32156:DbDataSourceImpl" />
+        <item name="LOCAL-DB.H2: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USER_HABILITATION: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
   <component name="ProjectId" id="1dH4NR2BIEsxw2GHSFYdH7vTcwX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ProjetReglesLocalesGolf-20200614T142237Z-001/ProjetReglesLocalesGolf/generateur_regles_locales version travail/pom.xml" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.GenerateurReglesLocalesApplication">
+    <configuration name="GenerateurReglesLocalesApplicationTests.ajoututilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generateur_regles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.generateur_regles_locales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.generateur_regles_locales" />
+      <option name="MAIN_CLASS_NAME" value="com.generateur_regles_locales.GenerateurReglesLocalesApplicationTests" />
+      <option name="METHOD_NAME" value="ajoututilisateur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateurReglesLocalesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="generateur_regles" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.generateur_regles_locales.GenerateurReglesLocalesApplication" />
@@ -31,6 +196,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GenerateurReglesLocalesApplicationTests.ajoututilisateur" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -56,6 +226,9 @@
       <updated>1592068643134</updated>
       <workItem from="1592068647914" duration="260000" />
       <workItem from="1592075577722" duration="51000" />
+      <workItem from="1592076351711" duration="4093000" />
+      <workItem from="1592133022679" duration="18101000" />
+      <workItem from="1592151566448" duration="950000" />
     </task>
     <servers />
   </component>
@@ -63,41 +236,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="565" key="GridCell.Tab.0.bottom" timestamp="1592068908060">
+    <state x="275" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592135167498">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1592135167498" />
+    <state x="463" y="141" key="FileChooserDialogImpl" timestamp="1592144942137">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="141" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1592144942137" />
+    <state width="1323" height="565" key="GridCell.Tab.0.bottom" timestamp="1592153735746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908060" />
-    <state width="1323" height="565" key="GridCell.Tab.0.center" timestamp="1592068908059">
+    <state width="1323" height="565" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592153735746" />
+    <state width="1323" height="565" key="GridCell.Tab.0.center" timestamp="1592153735745">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908059" />
-    <state width="1323" height="565" key="GridCell.Tab.0.left" timestamp="1592068908059">
+    <state width="1323" height="565" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1592153735745" />
+    <state width="1323" height="565" key="GridCell.Tab.0.left" timestamp="1592153735745">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908059" />
-    <state width="1323" height="565" key="GridCell.Tab.0.right" timestamp="1592068908059">
+    <state width="1323" height="565" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1592153735745" />
+    <state width="1323" height="565" key="GridCell.Tab.0.right" timestamp="1592153735745">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908059" />
-    <state width="1323" height="565" key="GridCell.Tab.1.bottom" timestamp="1592068908060">
+    <state width="1323" height="565" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1592153735745" />
+    <state width="1323" height="565" key="GridCell.Tab.1.bottom" timestamp="1592153735746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908060" />
-    <state width="1323" height="565" key="GridCell.Tab.1.center" timestamp="1592068908060">
+    <state width="1323" height="565" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592153735746" />
+    <state width="1323" height="565" key="GridCell.Tab.1.center" timestamp="1592153735746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908060" />
-    <state width="1323" height="565" key="GridCell.Tab.1.left" timestamp="1592068908060">
+    <state width="1323" height="565" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1592153735746" />
+    <state width="1323" height="565" key="GridCell.Tab.1.left" timestamp="1592153735746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908060" />
-    <state width="1323" height="565" key="GridCell.Tab.1.right" timestamp="1592068908060">
+    <state width="1323" height="565" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1592153735746" />
+    <state width="1323" height="565" key="GridCell.Tab.1.right" timestamp="1592153735746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="565" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1592068908060" />
-    <state x="391" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1592075577633">
+    <state width="1323" height="565" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1592153735746" />
+    <state x="186" y="29" key="SettingsEditor" timestamp="1592153732850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592075577633" />
+    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1592153732850" />
+    <state x="391" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1592151589354">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592151589354" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1592079630690">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1592079630690" />
   </component>
 </project>

@@ -3,7 +3,7 @@
 <@m.page title="Liste des Rubriques">
 
     <div class="ajoutcateg">
-        <form action="/newcategorie" method="post">
+        <form action="/Gestionnaire/newcategorie" method="post">
             <h3>Nouvelle Catégorie ?</h3>
             <div class="form-group">
                 <label for="titre">Titre</label>

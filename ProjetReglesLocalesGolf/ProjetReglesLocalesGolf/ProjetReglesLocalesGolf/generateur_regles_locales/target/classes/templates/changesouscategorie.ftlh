@@ -9,7 +9,7 @@
 
    </form>
    -->
-    <form action="/changesouscategorie/${souscategorie.id}" method="post">
+    <form action="/Editeur/changesouscategorie/${souscategorie.id}" method="post">
         <div class="form-group">
             <label for="texarea1"> Nouvelle Regle ?</label>
             <input type="text" class="form-control" name="newtitre" id="texarea1"></input>

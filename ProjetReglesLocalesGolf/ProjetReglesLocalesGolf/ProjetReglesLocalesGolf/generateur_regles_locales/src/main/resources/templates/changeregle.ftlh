@@ -4,7 +4,7 @@
 
     <h1>Changer le contenue de la règle</h1>
 
-    <form style="margin-top: 20%;" action="/changeregleformulaire/${regle.id}" method="post">
+    <form style="margin-top: 20%;" action="/Editeur/changeregleformulaire/${regle.id}" method="post">
         <div class="form-group">
             <label for="texarea1"> Nouvelle Regle ?</label>
             <textarea class="form-control" name="newregle" id="texarea1" rows="3"></textarea>
