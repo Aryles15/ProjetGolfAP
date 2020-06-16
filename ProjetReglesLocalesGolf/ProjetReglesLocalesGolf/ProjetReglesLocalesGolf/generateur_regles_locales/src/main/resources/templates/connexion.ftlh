@@ -1,24 +1,42 @@
 <#import "main.ftlh" as m>
+<style>
 
+</style>
 
 <@m.page title="">
 
+    <div class="container-fluid connexionformulaire">
+        <div class="row main-content bg-success text-center">
+            <div class="col-md-4 text-center company__info">
+                <span class="company__logo"><h2><span class="fa fa-android"></span></h2></span>
+                <h4 class="company_title">R&A</h4>
+            </div>
+            <div class="col-md-8 col-xs-12 col-sm-12 login_form">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h2>Connexion</h2>
+                    </div>
+                    <div class="row">
 
-   <!--FORMULAIRE DE CONNEXION USER-->
-    <div class="formCo col-md-6">
-    <form action="/login" method="post">
-        <h3>Connexion</h3>
-        <div class="form-group">
-            <label for="titre">User name</label>
-            <input type="text" name="username" id="username" class="form-control" aria-describedby="username"
-                   placeholder="user name">
-            <small id="textplus" class="form-text text-muted"></small>
-        </div>
-        <div class="form-group">
-            <label for="password">Mot de passe : </label>
-            <input type="password" name="password" id="password" class="form-control" placeholder="Mot de passe">
-        </div>
-        <button type="submit" class="btn btn-warning">Connexion</button>
-    </form>
-    </div>
+                        <form action="/login" method="post" class="form-group">
+                            <div class="row">
+                                <input type="text" name="username" id="username" class="form__input" placeholder="Username">
+                            </div>
+                            <div class="row">
+                                <input type="password" name="password" id="password" class="form__input" placeholder="Mdp">
+                            </div>
+                            <div class="row">
+                              <button role="button" type="submit" class="btnCo btn-round"><span>Se Connecter</span></button>
+                                <!--    <button type="submit" value="Se Connecter" class="btnCo"><span>Se Connecter</span></button>-->
+                              </div>
+                          </form>
+                      </div>
+                      <div class="row">
+                          <p>Pas de compte ?<a href="#" class=" text-dark">Inscription..</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
 </@m.page>

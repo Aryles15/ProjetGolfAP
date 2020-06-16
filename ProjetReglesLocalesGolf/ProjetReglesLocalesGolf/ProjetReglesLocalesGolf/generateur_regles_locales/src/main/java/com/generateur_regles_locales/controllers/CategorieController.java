@@ -19,6 +19,9 @@ public class CategorieController {
     @Autowired
     private RegleRepository regleRepository;
 
+    @Autowired
+    private UserRepository userRepository;
+
 
 
 
@@ -28,9 +31,21 @@ public class CategorieController {
         return "connexion";
     }
 
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    public String home(Model model) {
+        return "index";
+    }
+
+    @RequestMapping(value = "/checkrules", method = RequestMethod.GET)
+    public String generateRules(Model model) {
+        return "checkregles";
+    }
+
+
     @RequestMapping("/categories")
     public String categories(Model model) {
-        List<Categorie> categories = categorieRepository.findAll();
+        //List<Categorie> categories = categorieRepository.findAll();
+        List<Categorie> categories = categorieRepository.orderListcodeCategorie();
         model.addAttribute("categories", categories);
         return "categorie";
     }

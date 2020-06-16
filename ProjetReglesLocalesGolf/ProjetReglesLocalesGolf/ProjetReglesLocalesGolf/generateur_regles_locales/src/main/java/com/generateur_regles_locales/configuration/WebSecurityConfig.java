@@ -47,7 +47,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .csrf().disable()
                 .authorizeRequests()//on autorise certaine requette
-                .antMatchers("/", "/categories","/home","/login").permitAll()//on autorise l uri /home a tout le monde .permitAll()==permis a tous
+                .antMatchers("/", "/categories","/home","/login","/regleselect").permitAll()//on autorise l uri /home a tout le monde .permitAll()==permis a tous
                 //.antMatchers("/admin/**").hasAuthority("ADMIN") //** = nimporte quelle chemin a partir de /admin
                 //quand on recise voir sa comme une exclusion d'uri, la on autorise tout a part /admin/**
                 .antMatchers("/Admin/**").hasAuthority("ADMIN")

@@ -9,12 +9,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 public class RegleController {
 
     @Autowired
     private CategorieRepository categorieRepository;
+    @Autowired
     private SousCategorieRepository sousCategorieRepository;
+    @Autowired
     private RegleRepository regleRepository;
 
     @RequestMapping(value = "Editeur/changeregle/{id}", method = RequestMethod.GET)
@@ -77,6 +82,29 @@ public class RegleController {
         regleRepository.delete(regles);
 
         return "redirect:/categories";
+    }
+
+    @RequestMapping(value = "/regleselect", method = RequestMethod.POST)
+    public String SelectRegle(Model model, @RequestParam("idregles") List<Long> listidregle) {  //On recupere une Liste contenant les id des règles selectionné
+
+        if (listidregle.size() > 0) {
+            List<Regle> Listregleselect = new ArrayList<>();
+
+
+            for (Long id : listidregle) {
+                System.out.println("IdRegles: "+id);
+                Listregleselect.add(regleRepository.findById(id).get());
+            }
+            for (Regle regle : Listregleselect) {
+                System.out.println("===============================================" + regle.getCorpus());
+            }
+
+            model.addAttribute("listeregles", Listregleselect);
+            return "checkregles";
+       } else {
+            System.out.println("Pas de règles séléctionnées!!!");
+            return  "redirect:/categories";
+        }
     }
 
 

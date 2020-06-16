@@ -5836,3 +5836,11 @@ Database is already closed (to disable automatic closing at VM shutdown, add ";D
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-06-16 14:53:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT DISTINCT * FROM CATEGORIE ORDER BY CODE )[*]"
+Syntax error in SQL statement "SELECT DISTINCT * FROM CATEGORIE ORDER BY CODE )[*]"; SQL statement:
+select distinct * from CATEGORIE order by CODE ) [42000-200]
+2020-06-16 14:53:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT DISTINCT * FROM CATEGORIE ORDER BY CODE )[*]"
+Syntax error in SQL statement "SELECT DISTINCT * FROM CATEGORIE ORDER BY CODE )[*]"; SQL statement:
+select distinct * from CATEGORIE order by CODE ) [42000-200]

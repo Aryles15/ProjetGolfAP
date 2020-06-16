@@ -62,13 +62,13 @@
         <div class="collapse navbar-collapse text-white" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/categories">Règles Locales</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Generator</a>
+                    <a class="nav-link" href="/checkrules">Generator</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="/connexion">Connexion</a>

@@ -34,12 +34,13 @@ body {
     animation-duration: 0.5s;
     animation-name: slidebas;
     text-align: center;
+    text-decoration: underline #064a20 ;
+    border-bottom-width: medium;
 }
 
 .TitreTopPage{
     color: black;
     text-align: center;
-    margin-top: 6%;
 }
 
 .SousTitreTopPage{
@@ -48,7 +49,9 @@ body {
     margin-top: 3%;
     margin-bottom: 2%;
 }
-
+.titrecateg{
+    border-bottom-color:#064a20  ;
+}
 .ajoutcateg {
     text-align: center;
 }
@@ -60,13 +63,18 @@ body {
 .divCateg {
     animation-duration: 1s;
     animation-name: slideleft;
-
 }
+
 
 .divSousCateg {
     animation-duration: 1s;
     animation-name: slidebas;
     margin-left: 5%;
+}
+
+.divRegle{
+    border-bottom-color: #064a20;
+    border-right-color: #064a20;
 }
 
 .titresouscateg {
@@ -93,16 +101,22 @@ body {
     padding: 0;
 }
 
+.btnDeco{
+
+    display: flex;
+    justify-content:center ;
+    border-radius: 40%;
+
+}
+
 .btn-copy{
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.formCo{
-    margin-left: 20%;
-    margin-top: 10%;
-}
+.connexionformulaire{
 
+}
 
 
 /*KeyFrames Animation*/
@@ -142,3 +156,329 @@ body {
         background-position: 0% 50%;
     }
 }*/
+
+/*ABUS DE OUF LA LOGIN FORM DISIGN  #f0c413 orange  */
+.main-content{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.4);
+    margin: 5em auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.formcard{
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.4);
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+.couleurvert{
+    background-color: #064a20;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.vert{
+    background-color: #064a20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.company__info{
+    background-color:  #064a20;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.fa-android{
+    font-size:3em;
+}
+@media screen and (max-width: 640px) {
+    .main-content{width: 90%;}
+    .company__info{
+        display: none;
+    }
+    .login_form{
+        border-top-left-radius:20px;
+        border-bottom-left-radius:20px;
+    }
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+    .main-content{width: 70%;}
+}
+.row > h2{
+    color: #064a20;
+}
+.login_form{
+    background-color: #fff;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border-top:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+form{
+    padding: 0 2em;
+}
+.form__input{
+    width: 100%;
+    border:0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em .5em .5em;
+    padding-left: 2em;
+    outline:none;
+    margin:1.5em auto;
+    transition: all .5s ease;
+}
+.form__input:focus{
+    border-bottom-color:  #064a20;
+    box-shadow: 0 0 5px rgba(0,80,80,.4);
+    border-radius: 4px;
+}
+
+.btnCo{
+    transition: all .5s ease;
+    width: 80%;
+    border-radius: 30px;
+    color: #064a20;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid  #064a20;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+
+.btnCo span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 2.00s;
+}
+.btnCo span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 2.00s;
+}
+
+.btnCo:hover span {
+    padding-right: 50px;
+}
+
+.btnCo:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+                        /*ABUS DE OUF LA LOGIN FORM DISIGN*/
+
+
+                        /*ABUS DE OUF LA CHEKBOX  DISIGN*/
+
+.AllInputCheckbox{
+    position: relative;
+}
+
+.inputCheckbox{
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.input-psevdo{
+    position: relative;
+    top: 0px;
+    left: 0;
+    transform: translateX(0px);
+    display: block;
+}
+
+.input-psevdo:before{
+    content:' ';
+    display:block;
+    height:20px;
+    width: 20px;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    border-color: #064a20;
+    transition: all 0.2s;
+}
+
+.input-psevdo:after{
+    content:' ';
+    display:block;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #145190;
+    transition:0.2s;
+    position:absolute;
+    border-radius: 4px;
+    top: 1px;
+    left: 1px;
+    /* background: #fff200;*/
+    -webkit-box-shadow: 0 1px 3px 0 #e6e6e6;
+    box-shadow: 0 1px 3px 0 #e6e6e6;
+}
+
+.inputCheckbox:checked ~ .label-wrapText .input-psevdo:after{
+    border-top-style:none;
+    border-right-style:none;
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    height: 10px;
+    width: 26px;
+    top: 3px;
+    right: 3px;
+    border-color: #1ba244;
+    border-width: 4px;
+    -webkit-box-shadow: 0 0px 0px 0 #e6e6e6;
+    box-shadow: 0 0px 0px 0 #e6e6e6;
+    transition: all 0.2s;
+}
+
+.inputCheckbox:checked ~ .label-wrapText .input-psevdo:before{
+    background: #fff;
+    transition: all 0.2s;
+}
+
+.label-wrapText{
+    position: relative;
+    cursor: pointer;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.inputCheckbox:checked ~ .label-wrapText {
+    transition: all 0.2s;
+}
+
+.customTextCheckbox{
+    padding-left: 35px;
+    font-size: 18px;
+    line-height: 1.6;
+    display: inline-block;
+}
+
+/*ABUS DE OUF LA CHEKBOX  DISIGN*/
+
+
+
+                             /*Balle de Golf Index*/
+
+.golfballindex{
+
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+
+}
+.golfball{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.wrapper {
+    position: absolute;
+
+}
+
+.ball {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -5px -5px 5px red;
+    left: 25%;
+    top: 25%;
+    box-shadow: -3px 3px 15px rgba(0, 0, 0, 0.35), 0px 0px 100px rgba(0, 0, 0, 0.25), 0px 0px 5px rgba(255, 255, 255, 0.5);
+    z-index: 1;
+
+}
+
+.ball:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.2) 50%);
+    transform: rotate(-125deg);
+}
+
+.tee {
+    position: relative;
+    top: 100%;
+}
+
+.tee .top {
+    margin-top: 197px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 70px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 26px solid grey;
+    border-radius: 15px;
+}
+
+.stem {
+    background-color: grey;
+    height: 15em;
+    position: absolute;
+    top: 100px;
+    width: 20px;
+    margin-left: 90px;
+}
+
+.stem:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid grey;
+    border-radius: 16px;
+    position: absolute;
+    top: 239px;
+    margin-left: -1px;
+}
+
+.texture {
+    position: relative;
+    animation: translateBackground 40s infinite linear;
+    background: url(http://thumbs.dreamstime.com/x/golf-ball-texture-17926947.jpg) 0% 0 repeat-x;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+@keyframes translateBackground {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -600px;
+    }
+}
+/*Balle de Golf Index*/
